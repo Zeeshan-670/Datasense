@@ -5961,7 +5961,7 @@ ul.wp-block-latest-posts li:last-child {
   position: relative;
   z-index: auto;
   background: var(--smoke-color);
-  margin-top: 106px;
+  /* margin-top: 106px; */
   text-align: center;
   /* Small devices */
 }
@@ -5970,7 +5970,7 @@ ul.wp-block-latest-posts li:last-child {
   position: absolute;
   inset: 0;
   background: #0a0c00;
-  opacity: 0.2;
+  opacity: 0.6;
 }
 @media (max-width: 767px) {
   .breadcumb-wrapper {
@@ -6001,7 +6001,7 @@ ul.wp-block-latest-posts li:last-child {
 /* Medium devices */
 @media (max-width: 991px) {
   .breadcumb-wrapper {
-    margin-top: 90px;
+    /* margin-top: 90px; */
   }
 }
 /* Small devices */
@@ -6022,7 +6022,7 @@ ul.wp-block-latest-posts li:last-child {
   }
   .breadcumb-wrapper {
     padding: 100px 0;
-    margin-top: 86px;
+    /* margin-top: 86px; */
   }
   .breadcumb-wrapper.style2 {
     padding: 24px 0px;
@@ -8581,7 +8581,8 @@ blockquote p {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 2px solid var(--title-color);
+  border: 2px solid #fff;
+  border-radius: 35px;
 }
 .client-list-wrap li {
   border-top: 2px solid var(--title-color);
@@ -8658,7 +8659,7 @@ blockquote p {
 }
 .client-area-2 .client-list-wrap li {
   border-top: 0;
-  border-right: 2px solid var(--title-color);
+  border-right: 2px solid #fff;
 }
 .client-area-2 .client-list-wrap li:last-child {
   border-right: 0;
@@ -8670,7 +8671,7 @@ blockquote p {
     grid-template-columns: repeat(3, 1fr);
   }
   .client-area-2 .client-list-wrap li {
-    border-top: 2px solid var(--title-color);
+    border-top: 2px solid #ffffff;
   }
   .client-area-2 .client-list-wrap li:nth-child(3) {
     border-right: 0;
@@ -9258,11 +9259,9 @@ blockquote p {
 
 /*------------------- 4.00. Service -------------------*/
 /* Service 1 ---------------------------------- */
-.service-area-1 {
-  margin-top: 100px;
-  /* Extra large devices */
-  /* Medium devices */
-}
+/* .service-area-1 { */
+/* margin-top: 100px; */
+/* } */
 .service-area-1 .service-img-1-1 {
   width: 44%;
 }
@@ -10816,7 +10815,7 @@ blockquote p {
   }
   .space,
   .space-bottom {
-    padding-bottom: var(--section-space-mobile);
+    padding-bottom: var(--section-space-mobile) !important;
   }
   .space-extra,
   .space-extra-top {
