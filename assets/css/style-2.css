@@ -7105,7 +7105,7 @@ ul.wp-block-latest-posts li:last-child {
 }
 
 .marquee-wrap {
-  background: #1601ac;
+  background: var(--theme-color);
   padding: 31px 0;
 }
 .marquee-wrap .marquee__group .m-item {
@@ -7113,7 +7113,7 @@ ul.wp-block-latest-posts li:last-child {
   display: inline;
 }
 .marquee-wrap .marquee__group .m-item a {
-  color: var(--smoke-color);
+  color: #000;
   font-size: 36px;
   font-weight: 600;
   font-family: var(--title-font);
@@ -7122,7 +7122,7 @@ ul.wp-block-latest-posts li:last-child {
   /* Extra small devices */
 }
 .marquee-wrap .marquee__group .m-item a i {
-  color: var(--theme-color);
+  color: #3d1fa1;
   margin-right: 20px;
 }
 @media (max-width: 767px) {
